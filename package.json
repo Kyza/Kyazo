@@ -18,6 +18,7 @@
   "homepage": "https://github.com/KyzaGitHub/Kyazo#readme",
   "dependencies": {
     "discord.js": "^11.5.1",
-    "discord.js-commando": "^0.10.0"
+    "discord.js-commando": "^0.10.0",
+    "enmap": "^5.1.0"
   }
 }
