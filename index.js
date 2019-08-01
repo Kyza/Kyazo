@@ -15,9 +15,6 @@ client.registry
   ])
 
   // Registers all built-in groups, commands, and argument types
-  .registerDefaults()
-
-  // Registers all of your commands in the ./commands/ directory
-  .registerCommandsIn(path.join(__dirname, "commands"));
+  .registerDefaults();
 
 client.login(process.env.BOT_TOKEN);
